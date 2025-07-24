@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 400px;
+    object-fit: cover;
+    margin: 30px 80px;
+}
+p{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 125px;
+    margin-top: 0;
+}
