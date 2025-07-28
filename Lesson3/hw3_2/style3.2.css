@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+section p{
+    width: 80%;
+    padding-bottom: 50px;
+}
+section h2{
+    font-weight: 100;
+}
+.section-top{
+    background-color: #f69bd0;
+}
+.section-bottom{
+    background-color: #272525;
+    color: white;
+}
