@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    border-top: 40px solid hotpink;
+    border-right: 40px solid lawngreen;
+    border-bottom: 40px solid blueviolet;
+    border-left: 40px solid gold;
+    animation: square 5s ease-in infinite alternate;
+}
+@keyframes square {
+    from{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+        border-radius: 50%;
+        border-top: 40px solid lawngreen;
+        border-right: 40px solid blueviolet;
+        border-bottom: 40px solid gold;
+        border-left: 40px solid hotpink;
+    }
+    to{
+        transform: scale(1);
+        border-top: 40px solid hotpink;
+        border-right: 40px solid lawngreen;
+        border-bottom: 40px solid blueviolet;
+        border-left: 40px solid gold;
+    }
+}
