@@ -1,0 +1,40 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cloud{
+    width:80vw;
+    height: 40vh;
+}
+.sun{
+    width: 40vw;
+    height: 50vh;
+    position: absolute;
+    right: 10px;
+    animation: sun 1.5s linear infinite alternate;
+}
+.grass{
+    width: 100vw;
+    height: 60vh;
+    animation: grass 3s linear infinite alternate;
+}
+@keyframes sun{
+    from{
+        transform: translate(10px, 20px);
+    }
+    to{
+        transform: translate(30px, -10px);
+    }
+}
+@keyframes grass {
+    from{
+        transform: skew(5deg);
+    }
+    50%{
+        transform: skew(0);
+    }
+    to{
+        transform: skew(-5deg);
+    }
+}
