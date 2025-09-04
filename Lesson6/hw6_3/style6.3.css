@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+.form-registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid lightgrey;
+    margin: 50px;
+    padding: 50px;
+}
+img{
+    width: 700px;
+    margin-bottom: 30px;
+}
+input[type=text],
+input[type=password]{
+    width: 64vw;
+    height: 12vh;
+    margin: 15px;
+    font-size: 45px;
+    padding: 30px;
+    background-color: rgba(192, 192, 192, 0.10);
+    border-radius: 10px;
+    border: 3px solid lightgrey;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+input[type=submit]{
+    width: 68vw;
+    height: 15vh;
+    border-radius: 20px;
+    background-color: #63bdf3;
+    border: none;
+    font-size: 45px;
+    color: white;
+    margin-top: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+h5{
+    color: gray;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.facebook img{
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    padding-top: 10px;
+}
+.form-registration>.facebook>p{
+    color: #09099c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+.form-registration>p{
+    color: #09099c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 0;
+}
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid lightgrey;
+    margin: 50px;
+    padding: 70px 0 70px 0;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    gap: 15px;
+}
+.registration span:last-child{
+    color: dodgerblue;
+    font-weight: 700;
+}
