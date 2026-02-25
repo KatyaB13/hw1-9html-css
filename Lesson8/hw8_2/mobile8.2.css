@@ -1,0 +1,18 @@
+@media screen and (max-width: 480px) {
+    .items{
+        width: 343px;
+        height: 976px;
+        gap: 8px;
+        margin: 32px 16px;
+        flex-wrap: wrap;
+    }
+    .item{
+        width: 343px;
+        height: 220px;
+        margin-bottom: 30px;
+    }
+    .item img{
+        width: 128px;
+        height: 128px;
+    }
+}
