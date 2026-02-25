@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) {
+    .boxes{
+        width: 343px;
+        height: 2194px;
+        padding: 32px 0;
+    }
+    .box{
+        gap: 40px;
+    }
+    .box img{
+        width: 343px;
+        height: 257px;
+    }
+    .box h3{
+        width: 343px;
+        height: 24px;
+    }
+    .box p{
+        width: 343px;
+        height: 16px;
+        margin-bottom: 15px;
+    }
+}

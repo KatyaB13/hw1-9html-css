@@ -1,0 +1,16 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .boxes{
+        width: 720px;
+    }
+    .box img{
+        width: 218px;
+        height: 164px;
+    }
+    .box h3{
+        width: 218px;
+        height: 48px;
+    }
+    .box p{
+        width: 218px;
+    }
+}
